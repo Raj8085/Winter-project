@@ -1,0 +1,42 @@
+/* DoctorPatientCalendar.css */
+
+/* Styles for the calendar container */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Styles for the appointment form */
+  .appointment-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 20px;
+  }
+  
+  /* Styles for form sections */
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the data table */
+  .data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
