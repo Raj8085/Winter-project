@@ -48,6 +48,7 @@ nav{
 }
 .main-nav{
     justify-content: space-between;
+    display: flex;
     padding-block: 8px;
     background-color:aqua;
 }
@@ -146,3 +147,37 @@ main{
     background-color: #183b56;
 }
  
+
+
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: 48%; /* Adjust for smaller screens to have two cards in a row */
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%; /* Adjust for even smaller screens to have one card in a row */
+    }
+}
+

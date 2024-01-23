@@ -10,7 +10,7 @@
 
 
 .section__descriptions > div {
-    max-width: 20%;
+    max-width: 40%;
     min-height: 20%;
     color: white;
     display: flex;
@@ -19,6 +19,8 @@
     flex-direction: column;
     background-color: var(--section-overlay);
     padding: 1rem;
+    
+    
     /* border-radius: 0.4rem; */
 }
 

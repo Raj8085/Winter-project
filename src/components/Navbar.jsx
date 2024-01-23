@@ -21,7 +21,7 @@ export const Navbar=()=>{
                     <NavLink to="/services">Services</NavLink>
                 </li>
                 <li className="cont">
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/EmpApp">EmpApp</NavLink>
                 </li>
                 <li className="cont">
                     <NavLink to="/calender">Fullcalender</NavLink>
@@ -32,6 +32,7 @@ export const Navbar=()=>{
                 <li>
                     <NavLink to="/news">News</NavLink>
                 </li>
+                 
             </ul>
         </nav>
     );

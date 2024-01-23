@@ -239,7 +239,7 @@ const AppointmentForm = ({ onSubmit }) => {
         </label>
       </div>
 
-      <button type="submit">Submit</button>
+      <button type="submit" className="btn">Submit</button>
     </form>
   );
 };

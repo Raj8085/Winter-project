@@ -8,6 +8,7 @@ import Services from "./components/pages/Services";
 import Wheather from "./components/WheatherApi/Wheather.jsx";
 import News from "./components/newsapi/News.jsx";
 import Calender from "./components/CalenderApp/Calender.jsx";
+import EmpApp from "./components/EmpManagement/EmpApp.jsx";
 function App(){
   return (
   <div className="App">
@@ -18,7 +19,7 @@ function App(){
      <Route path="/" element={<Home />}/>
      <Route path="/calender" element={<Calender/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/EmpApp" element={<EmpApp/>}/>
       <Route path="/services" element={<Services/>}/>
       <Route path="/wheather" element={<Wheather/>}/>
       <Route path="/news" element={<News/>}/>
